@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Register your Turf</h1>
-    <form action="seller.php" method="post">
+    <form action="registered.php" method="post">
 
         <!-- Turf Information -->
         <fieldset>
