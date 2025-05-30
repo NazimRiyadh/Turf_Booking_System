@@ -1,0 +1,64 @@
+body {
+    
+    background: url('turf.jpg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: #afb0af57;
+    padding:20px;
+    margin: 20px;
+   
+    
+}
+
+
+form {
+    position: relative;   /*back*/
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    z-index: 0;
+    background:rgba(160, 152, 152, 0.378);
+}
+
+fieldset {
+    margin: 0px ;
+    padding: 10px;    /*inside*/
+    background-color: rgba(87, 86, 89, 0.597);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    margin: 15px ; 
+    border: 1px solid #041107;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 50px;
+    border: none;
+    background: #28a745; 
+    color: #fff;
+    cursor: pointer;
+    margin-right: 305px; /* space */
+}
+
+input[type="reset"] {
+    margin-top: 10px;
+    padding: 8px 50px;
+    border: 2px solid black;
+    background: #dc3545; 
+    color: #fff;
+    cursor: pointer;
+}
+
